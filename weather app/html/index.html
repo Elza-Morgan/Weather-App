@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-sc.0" />
+    <title>Weather</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+        integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="../bootstrap-files/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="../css/styles.css" />
+</head>
+
+<body>
+    <!--*--- Nav-Bar ------>
+    <nav class="navbar navbar-expand-lg py-5">
+        <div class="container">
+            <div class="logo d-flex justify-content-center align-items-center gap-3 ms-5">
+                <img src="../images/logo.png" alt="logo" />
+                <div class="logo-content">
+                    <span class="d-block">
+                        <a class="navbar-brand weather-name text-white" href="#">Weather</a>
+                    </span>
+                    <span class="d-block">
+                        <a class="navbar-brand caption" href="#">tagline goes here</a>
+                    </span>
+                </div>
+            </div>
+
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0 text-center gap-2">
+                    <li class="nav-item">
+                        <a class="nav-link text-white active" aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="#">News</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="#">Live cameras</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="#">Photos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="#">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!--*--- Home ------>
+    <main>
+
+        <div class="home-bg">
+
+            <div class="search-bar">
+                <input type="text" class="search-bar-input form-control mx-auto m-0" id="search-bar-input"
+                    placeholder="Find your location..." />
+                <button type="button" class="find-btn btn">Find</button>
+            </div>
+
+            <div class="container container-weather mt-5 z-3">
+                <div class="row">
+
+                    <!--^ ---- Day 1 ---- -->
+                    <div class="weather-card-first-last-card weather-border-radius-left-side col-4 p-0" id="day-one">
+                    </div>
+
+                    <!--^ ---- Day 2 ---- -->
+                    <div class="weather-card-day-two col-4 p-0" id="day-two">
+                    </div>
+
+                    <!--^ ---- Day 3 ---- -->
+                    <div class="weather-card-first-last-card col-4 p-0 weather-border-radius-right-side" id="day-three">
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+
+
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="row justify-content-center align-items-center">
+                <div class="col-md-8">
+                    <div class="inner position-relative">
+                        <input class="subscribe-and-media-input form-control" type="text" placeholder="Enter your email to subscribe...">
+                        <button type="button" class="btn btn-subscribe">Subscribe</button>
+                    </div>
+                </div>
+
+                <div class="col-md-4">
+                    <div class="social-media d-flex gap-1">
+                        <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+						<a href="#"><i class="fa-brands fa-twitter"></i></a>
+						<a href="#"><i class="fa-brands fa-google-plus-g"></i></a>
+						<a href="#"><i class="fa-brands fa-pinterest"></i></a>
+                    </div>
+                </div>
+            </div>
+
+            <p class="d-block copy-right">Copyright 2014 Company name. Designed by Themezy. All rights reserved</p>
+        </div>
+    </footer>
+
+    <script src="../bootstrap-files/js/bootstrap.bundle.min.js"></script>
+    <script src="../Js/main.js"></script>
+</body>
+
+</html>

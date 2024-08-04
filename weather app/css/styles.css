@@ -1,0 +1,243 @@
+body{
+    color: #bfc1c8;
+    font-family: "Roboto", "Open Sans", sans-serif;
+    font-size: 14px;
+    line-height: 1.5;
+    background-color: #1e202b;
+}
+
+ /*& ------ Nav-Bar ------ */
+.navbar{
+    background-color: #1e202b;
+}
+
+.logo img{
+    width: 4rem;
+    height: 2.375rem;
+}
+
+.weather-name{
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 1.5;
+}
+
+.caption{
+    font-size: .625rem;
+    font-weight: 300;
+    color: rgba(255, 255, 255,0.7);
+
+}
+
+.navbar-nav{
+    margin-right: 100px;
+}
+
+.navbar-nav .nav-item .nav-link{
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.3125rem;
+    color: #bfc1c8;
+    padding: 4px 25px;
+    border-radius: 30px;
+    border: 2px solid transparent;
+    transition: all 0.3s ease;
+
+}
+
+.navbar-nav .nav-item .active, .navbar-nav .nav-item a:hover {
+    border: 2px solid #009ad8;
+    color: #009ad8 !important;
+}
+
+ /*& ------ Home ------ */
+
+.home-bg{
+    background-image: url("../images/banner.png");
+    height:44vh;
+    background-size: cover;
+    padding: 70px 0;
+}
+
+.home-bg .search-bar{
+    position: relative;
+}
+
+.home-bg .search-bar .search-bar-input{
+    padding: 17px 18px;
+    border-radius: 30px;
+    width: 1170px;
+    background-color: #1e202b;
+    border:none;
+    color:white;
+    font-size: 14px;
+
+}
+
+.home-bg .search-bar .search-bar-input:focus{
+    border: none;
+    box-shadow: none;
+    color:white;
+    background-color: #1e202b;
+
+}
+
+.home-bg .search-bar .search-bar-input::placeholder{
+    color: rgba(255, 255, 255,0.3);
+    font-size: 14px;
+    caret-shape: block;
+}
+
+.search-bar .find-btn{
+    background-color: #009ad8;
+    color: white;
+    padding: 12px 40px;
+    border-radius: 30px;
+    position: absolute;
+    bottom:4.5px;
+    right: 265px;
+    font-size: 14px;
+}
+
+.container-weather{
+    width: 1170px;
+    height: 50vh;
+
+}
+.weather-card-first-last-card{
+    background-color: #323544;
+}
+
+/* left boarder radius side*/
+.weather-border-radius-left-side{
+    border-bottom-left-radius: 10px;
+    border-top-left-radius: 10px;
+}
+
+.day-one-header-radius-top{
+    border-top-left-radius: 10px;
+}
+
+/* right boarder radius side */
+.weather-border-radius-right-side{
+    border-bottom-right-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.day-three-header-radius-top{
+    border-top-right-radius: 10px;
+}
+
+.day-one-three-header{
+    background-color: #2d303d;
+}
+
+.weather-description{
+    color: #009ad8;
+}
+
+.weather-card-day-two{
+    background-color: #262936;
+}
+
+.day-two-header{
+    background-color: #222530;
+}
+
+.middle-last-card-sunny {
+    font-size: 1.7rem;
+    color: white;
+}
+
+.middle-last-card-night{
+    font-size: 1.1rem;
+}
+
+.day-night-temp{
+    position: relative;
+    top: 20px;
+}
+
+.footer{
+    background-color: #262936;
+    height: 30vh;
+    position: relative;
+    top:270px;
+}
+
+.footer .subscribe-and-media-input{
+    position: relative;
+    top: 60px;
+    left:10%;
+    width: 45rem;
+    padding: 20px 15px;
+    border-radius: 30px;
+    background-color: #1e202b;
+    border:none;
+    color:white;
+    font-size: 14px;
+}
+
+.footer .subscribe-and-media-input:focus{
+    border: none;
+    box-shadow: none;
+    color:white;
+    background-color: #1e202b;
+    
+}
+
+.footer .subscribe-and-media-input::placeholder{
+    color: rgba(255, 255, 255,0.3);
+    font-size: 14px;
+}
+
+
+.footer .btn-subscribe{
+    background-color: #009ad8;
+    color: white;
+    padding: 13px 20px;
+    border-radius: 30px;
+    font-size: 14px;
+    position: absolute;
+    right: 6.5%;
+    bottom: -54px;
+
+}
+
+.social-media{
+    position: relative;
+    top: 60px;
+    left: 70px;
+}
+
+.social-media a{
+    width: 40px;
+    height: 40px;
+    border-radius: 50px;
+    background-color: #1e202b;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    transition: all 0.5s ease;
+}
+
+.social-media a i{
+    font-size: 20px;
+    color: #009ad8;
+
+}
+
+.social-media a:hover{
+    background-color: #009ad8;
+}
+
+.social-media a:hover i{
+    color: white;
+}
+
+.copy-right{
+    position: relative;
+    top: 90px;
+    left: 100px;
+}
